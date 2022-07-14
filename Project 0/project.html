@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="project.css">
+	<title>Project 0</title>
+</head>
+<body>
+	<img src="Aditya.jpg" alt="Aditya" id="adi">
+	<div class="title"><b>Project 0</b></div>
+	
+	
+	<div id="maindiv">
+	<main>
+		<div class="middle">
+			<img src="luffy.gif" id="im1">
+			<a id="prev" onclick="prev()">&#10094;</a>
+						<a id="next" onclick="next()">&#10095;</a>
+						
+					</div>
+				</main>
+				<aside>
+				<div class="left">
+					<div id="l1">
+						<h1 style="width:99%">ID NUMBERS</h1>
+						<input type="text" name="search bar" placeholder="Search">
+					</div>
+				</div>
+				<div class="right">
+					<div id="r1">
+					<h1 style="padding: 10px;">Notifications</h1>
+					</div>
+				</div>
+				</aside></div>
+				<nav class="nav-bar">
+					<ul class="nav_ul">
+						<li><a href="#" onclick="home()">Home</a></li>
+						<a href="#"><li class="pop-e">Exam
+						<ul class="exam_drop">
+										<a href="#" onclick="register()"><li>Register</li></a>
+										<a href="#" onclick="login()"><li>Login</li></a>
+						</ul></li></a>
+						<a href="#"><li class="pop-b">Branch
+						<ul class="branch_drop">
+										<a href="#"><li class="pop-b1" >C.S.E
+											<ul id="cse_b">
+												<a href="#" onclick="Slogin()"><li >Student</li></a>
+												<a href="#"onclick="Flogin()"><li >Faculty</li></a>
+											</ul></li></a>
+										<li class="pop-b2"><a href="#">E.C.E</a>
+											<!-- <ul id="ece_b">
+									<a href="#"><li >Student</li></a>
+									<a href="#"><li >Faculty</li></a>
+								</ul> --></li>
+							<li class="pop-b3"><a href="#">M.E.C.H</a>
+								<!-- <ul id="mech_b">
+									<a href="#"><li >Student</li></a>
+									<a href="#"><li >Faculty</li></a>
+								</ul> --></li>
+			</ul>
+			</li>
+			</a>
+			<li><a href="#" onclick="about()">About</a></li>
+			<li><a href="#" onclick="map()">Contact</a></li>
+		</ul>
+	</nav>
+	<iframe src="form.html" style="display: none;" id="form"></iframe>
+	<iframe src="login.html" style="display: none;" id="login"></iframe>
+	<iframe src="facultylogin.html" style="display: none;" id="Flogin"></iframe>
+	<iframe src="studentlogin.html" style="display: none;" id="Slogin"></iframe>
+	<iframe src="about.html" style="display: none;" id="about"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18196.06955447358!2d80.81831741398307!3d16.789973928879974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3675e53fa3b4fb%3A0xfd1e193c90e4643!2sRajiv%20Gandhi%20University%20of%20Knowledge%20and%20Technology%20%2C%20Nuzvid!5e0!3m2!1sen!2sin!4v1657115456814!5m2!1sen!2sin" width="600" height="800px" style="display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map" ></iframe>
+	
+	
+	<p id="cr"><small>copy right &copy;2022 #Aditya </small></p>
+	<script type="text/javascript" src="project.js"></script>
+	<div class="menu_icon">
+		<img src="menu icon.png" class="bar_icon">
+
+	</div>
+			<input type="checkbox" name="" class="check_box"> 
+	<div class="ver_nav">
+		<ul class="ver_li">
+			<a href="#"><li class="home_ver">Home</li></a>
+			<a href="#"><li class="home_ver">Exam
+				<ul class="exam_drop_v">
+										<a href="#" onclick="register()"><li>Register</li></a>
+										<a href="#" onclick="login()"><li>Login</li></a>
+						</ul></li></a>
+			<a href="#"><li class="home_ver">Branch
+			<ul class="branch_drop_v">
+										<a href="#"><li class="pop-b1_v1" >C.S.E
+											<ul id="cse_b_v">
+												<a href="#" onclick="Slogin()"><li >Student</li></a>
+												<a href="#"onclick="Flogin()"><li >Faculty</li></a>
+											</ul></li></a>
+										<a href="#"><li class="pop-b2_v2">E.C.E
+											<!-- <ul id="ece_b_v">
+									<a href="#"><li >Student</li></a>
+									<a href="#"><li >Faculty</li></a>
+								</ul> --></li></a>
+							<a href="#"><li class="pop-b_v3">M.E.C.H
+								<!-- <ul id="mech_b_v">
+									<a href="#"><li >Student</li></a>
+									<a href="#"><li >Faculty</li></a>
+								</ul> --></li></a>
+			</ul></li></a>
+			<a href="#"><li class="home_ver">About</li></a>
+			<a href="#"><li class="home_ver">Contact</li></a>
+			
+		</ul>
+	</div>
+</body>
+</html>
