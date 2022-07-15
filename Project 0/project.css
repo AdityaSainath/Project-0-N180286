@@ -632,3 +632,11 @@ iframe{
 	
 
 }
+h3{
+	margin-top: 6%;
+	width: 100%;
+	color: black;
+}
+/*#search{
+	z-index: 20;
+}*/
