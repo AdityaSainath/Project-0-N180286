@@ -67,20 +67,3 @@ function auto_slider(){
 	i++
 	setTimeout(auto_slider,7000)
 }
-//  var filter=document.getElementById("search");
-//         filter.addEventListener('keyup',searchItem,false);
-//         function searchItem(e)
-//         {
-//             var text=e.target.value.toLowerCase();
-//             var items=document.getElementsByTagName("li");
-//             Array.from(items).forEach((item)=>
-//             {
-//                 itemValue=item.firstChild.textContent;
-//                 if(itemValue.toLowerCase().indexOf(text)!=-1){
-//                     item.style.display="block"; 
-//                 }
-//                 else{
-//                     item.style.display="none";
-//                 }
-//   } 
-// }
